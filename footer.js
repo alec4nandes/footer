@@ -1,4 +1,4 @@
 const footer = document.createElement("div");
-footer.classList.add("custom-footer");
+footer.className = "custom-footer";
 footer.innerHTML = "&copy; Alec Fernandes";
 document.body.appendChild(footer);
